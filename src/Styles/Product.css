@@ -1,0 +1,38 @@
+.container-text{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+}
+
+
+.card-item{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.filtered-image{
+    max-width: 9rem;
+    max-height: 11rem;
+
+}
+
+.prev-price{
+    font-size: 1.2rem;
+}
+
+.new-price{
+    font-size: 1.4rem;
+}
+
+.search-bar{
+    width: 30%;
+}
+.card-container{
+    cursor: pointer;
+}
+@media (max-width : 768px) {
+    .card-container{
+        display: flex;
+        align-items: center;
+    }
+}
